@@ -4,9 +4,7 @@
 2. [Run MongoDB Community Edition](#schema2)
 3. [Time to Get Started](#schema3)
 4. [Shell vs Drivers](#schema4)
-5. 
-
-2. [Ref](#schemaref)
+5. [Ref](#schemaref)
 
 <hr>
 
