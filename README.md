@@ -3,6 +3,8 @@
 1. [Installing MongoDB in Linux](#schema1)
 2. [Run MongoDB Community Edition](#schema2)
 3. [Time to Get Started](#schema3)
+4. [Shell vs Drivers](#schema4)
+5. 
 
 2. [Ref](#schemaref)
 
@@ -103,6 +105,24 @@ show dbs
 db.basedegatos.find()
 [ { _id: ObjectId('655f3c51048dd06a35c960b7'), name: 'Paco', age: 2 } ]
 ```
+<hr>
+
+<a name="schema4"></a>
+
+## 4 . Shell vs Drivers
+Los controladores (o drivers) de MongoDB para Python son bibliotecas que proporcionan una interfaz para que 
+las aplicaciones escritas en Python se comuniquen con una base de datos MongoDB. Estos drivers facilitan la conexión, 
+la consulta y la manipulación de datos en MongoDB desde Python.
+- Python
+https://www.mongodb.com/docs/drivers/python-drivers/
+
+https://www.mongodb.com/docs/drivers/pymongo/
+
+- **pymongo:** Es el controlador oficial de MongoDB para Python. Proporciona una interfaz de bajo nivel para 
+interactuar con MongoDB y es muy utilizado en aplicaciones Python que se conectan a bases de datos MongoDB. 
+Pymongo permite realizar operaciones como la inserción, actualización, eliminación y consulta de documentos 
+en una base de datos MongoDB.
+
 
 
 <hr>
