@@ -84,8 +84,25 @@ Muestra las base de datos que tenemos.
 ```
 show dbs
 ```
-
-
+- Insert one element 
+  - 1. use nombre_base_de_datos
+    ```
+    test> use basedegatos
+    switched to db basedegatos
+    ``` 
+  - 2. insertOne({})
+  ```
+       db.basedegatos.insertOne({name: "Paco", age:2})
+       {
+         acknowledged: true,
+         insertedId: ObjectId('655f3c51048dd06a35c960b7')
+       }
+    ```
+- Find elements `find()`
+```
+db.basedegatos.find()
+[ { _id: ObjectId('655f3c51048dd06a35c960b7'), name: 'Paco', age: 2 } ]
+```
 
 
 <hr>
